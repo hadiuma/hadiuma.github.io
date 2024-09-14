@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Bright Network Blog Site</title>
+    <style>
+        .container {
+            display: flex; /* Use flexbox to arrange items side by side */
+            align-items: flex-start; /* Align items at the start */
+            margin: 20px 0; /* Margin for spacing */
+        }
+
+        .form-container {
+            flex: 1; /* Allow the form to take available space */
+            margin: 0 20px; /* Space between form and images */
+        }
+
+        .image-container {
+            display: flex; /* Use flexbox for image layout */
+            flex-direction: column; /* Stack images vertically */
+            align-items: center; /* Center images horizontally */
+        }
+
+        .image-container img {
+            width: 150px; /* Width for images */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for images */
+            margin: 10px 0; /* Margin between images */
+        }
+    </style>
+</head>
+
+<body>
+    <header id="main-header">
+        <h1 id="logo">Bright Network Blog</h1>
+        <nav>
+            <ul id="nav-ul">
+                <li><a href="" class="navbutton">Home</a></li>
+                <li><a href="" class="navbutton">About Us</a></li>
+                <li><a href="" class="navbutton">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Welcome to Our Blog!</h2>
+        <p>
+            Welcome to the site about all things dogs, Scroll down to see some amazing facts about dogs, sign up for more dog content and to contact us. Enjoy!
+        </p>
+        <blockquote cite="https://www.brightnetwork.co.uk/">
+            "Puppies." - <cite>Zsolt, 2024</cite>
+        </blockquote>
+
+        <article>
+            <hgroup>
+                <h2>Ten Amusing Facts About Dogs</h2>
+                <h3>Read time: 5 minutes</h3>
+            </hgroup>
+            <p>Content of the article goes here...</p>
+            <footer>
+                <hgroup>
+                    <h2>Author: A. Dog Jr.</h2>
+                    <h3>Last posted: 2024-08-01</h3>
+                    <a href="https://www.brightnetwork.co.uk/" target="_blank">Visit Source</a>
+                </hgroup>
+            </footer>
+        </article>
+
+        <aside>
+            <!-- Sidebars for Filters -->
+        </aside>
+
+        <h2>Sign up for more puppies!</h2>
+        
+        <div class="container">
+            <div class="image-container">
+                <img src="https://images.pexels.com/photos/1619690/pexels-photo-1619690.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Puppy 1"> <!-- New puppy image 1 -->
+            </div>
+            
+            <div class="form-container">
+                <form action="" method="POST">
+                    <label for="first_name">First Name:</label><br>
+                    <input type="text" id="first_name" name="first_name" required><br>
+                    <label for="last_name">Last Name:</label><br>
+                    <input type="text" id="last_name" name="last_name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required><br>
+                    <label for="favourite_animal">Favourite animal:</label><br>
+                    <input type="radio" id="dog" name="favourite_animal" value="dog">
+                    <label for="dog">Dog</label><br>
+                    <input type="radio" id="cat" name="favourite_animal" value="cat">
+                    <label for="cat">Cat</label><br>
+                    <input type="radio" id="hedgehog" name="favourite_animal" value="hedgehog">
+                    <label for="hedgehog">Hedgehog</label><br>
+                    <label for="country">Country:</label><br>
+                    <select id="country" name="country">
+                        <option value="england">England</option>
+                        <option value="scotland">Scotland</option>
+                        <option value="wales">Wales</option>
+                        <option value="northern_ireland">Northern Ireland</option>
+                    </select><br>
+                    <label for="bio">Biography:</label><br>
+                    <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Subscribe to newsletter</label><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div class="image-container">
+                <img src="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Puppy 2"> <!-- New puppy image 2 -->
+            </div>
+        </div>
+
+        <footer>
+            <h1>Bright Network Blog Site</h1>
+            <div id="footer-container">
+                <section>
+                    <h2>Our Site</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="/home">Home</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/blog">Blog</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section>
+                    <h2>Important Files</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="/">Privacy Policy</a></li>
+                            <li><a href="/">Terms & Conditions</a></li>
+                            <li><a href="/">Cookie Policy</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+</html>
