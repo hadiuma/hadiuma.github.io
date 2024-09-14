@@ -13,7 +13,7 @@ body > header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding: 16 px;
 }
 
 /* Navigation Styles */
@@ -24,14 +24,14 @@ body > header {
 
 #nav-ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 15 px;
 }
 
 .navbutton {
     color: white;
     text-decoration: none;
     position: relative;
-    transition: color 0.3s ease;
+    transition: color 0.3 s ease;
 }
 
 .navbutton:hover {
@@ -40,29 +40,29 @@ body > header {
 
 /* Main Content Styling */
 body > main {
-    margin: 20px auto;
-    max-width: 800px;
-    padding: 0 15px;
+    margin: 20 px auto;
+    max-width: 800 px;
+    padding: 0 15 px;
 }
 
 article {
-    margin-bottom: 30px;
-    padding: 20px;
-    border: 1px solid #D0D0D0; /* Light gray border */
-    border-radius: 5px;
+    margin-bottom: 30 px;
+    padding: 20 px;
+    border: 1 px solid #D0D0D0; /* Light gray border */
+    border-radius: 5 px;
     background-color: white; /* White background for articles */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow for articles */
+    box-shadow: 0 4 px 12 px rgba (0, 0, 0, 0.1); /* Light shadow for articles */
 }
 
 /* Updated Heading Colors */
 h1, h2 {
     color: #4ED1B2; /* Lighter teal */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Darker shadow for contrast */
+    text-shadow: 2 px 2 px 4 px rgba (0, 0, 0, 0.7); /* Darker shadow for contrast */
 }
 
 h2 {
     text-align: center;
-    margin: 20px auto;
+    margin: 20 px auto;
 }
 
 /* Footer Styles */
@@ -70,17 +70,17 @@ footer {
     background-color: #008080;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 20 px 0;
 }
 
 /* Form Styles */
 form {
-    background: rgba(255, 255, 255, 0.9); 
-    padding: 20px;
-    border-radius: 5px;
-    margin: 20px auto;
-    max-width: 600px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for form */
+    background: rgba (255, 255, 255, 0.9); 
+    padding: 20 px;
+    border-radius: 5 px;
+    margin: 20 px auto;
+    max-width: 600 px;
+    box-shadow: 0 4 px 12 px rgba (0, 0, 0, 0.1); /* Soft shadow for form */
 }
 
 input[type="text"],
@@ -88,26 +88,26 @@ input[type="email"],
 input[type="password"],
 select,
 textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #D0D0D0; /* Light gray border */
-    border-radius: 4px;
+    width: 100 %;
+    padding: 10 px;
+    margin: 5 px 0;
+    border: 1 px solid #D0D0D0; /* Light gray border */
+    border-radius: 4 px;
 }
 
 input[type="submit"] {
     background-color: #FF6F61; /* Coral color */
     color: white;
     border: none;
-    padding: 10px;
+    padding: 10 px;
     cursor: pointer;
-    transition: background 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for button */
+    transition: background 0.3 s ease;
+    box-shadow: 0 4 px 8 px rgba (0, 0, 0, 0.2); /* Shadow for button */
 }
 
 input[type="submit"]:hover {
     background-color: #E55A4A; /* Darker coral on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    box-shadow: 0 6 px 12 px rgba (0, 0, 0, 0.3); /* Enhanced shadow on hover */
 }
 
 
