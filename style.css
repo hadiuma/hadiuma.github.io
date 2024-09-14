@@ -1,0 +1,113 @@
+/* Updated Global Styles */
+body {
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+    margin: 0;
+    background-color: #FAF3E0; /* Light cream background */
+    color: #2E3A46; /* Dark slate gray text */
+}
+
+/* Header Styles */
+body > header {
+    background-color: #008080;  /* Deep teal */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+/* Navigation Styles */
+#nav-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav-ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.navbutton:hover {
+    color: #FF6F61; /* Change link color on hover for visibility */
+}
+
+/* Main Content Styling */
+body > main {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 15px;
+}
+
+article {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #D0D0D0; /* Light gray border */
+    border-radius: 5px;
+    background-color: white; /* White background for articles */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow for articles */
+}
+
+/* Updated Heading Colors */
+h1, h2 {
+    color: #4ED1B2; /* Lighter teal */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Darker shadow for contrast */
+}
+
+h2 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Form Styles */
+form {
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for form */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #D0D0D0; /* Light gray border */
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #FF6F61; /* Coral color */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for button */
+}
+
+input[type="submit"]:hover {
+    background-color: #E55A4A; /* Darker coral on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+
