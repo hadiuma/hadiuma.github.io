@@ -1,7 +1,13 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure consistent box-sizing */
+}
+
 /* Updated Global Styles */
 body {
     font-family: 'Helvetica', 'Arial', 'sans-serif';
-    margin: 0;
     background-color: #FAF3E0; /* Light cream background */
     color: #2E3A46; /* Dark slate gray text */
 }
@@ -93,6 +99,15 @@ textarea {
     margin: 5px 0;
     border: 1px solid #D0D0D0; /* Light gray border */
     border-radius: 4px;
+    transition: border-color 0.3s ease; /* Smooth transition for focus */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #4ED1B2; /* Change border color on focus for visibility */
 }
 
 input[type="submit"] {
@@ -101,7 +116,7 @@ input[type="submit"] {
     border: none;
     padding: 10px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: background 0.3s ease, box-shadow 0.3s ease; /* Transition for background and shadow */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for button */
 }
 
@@ -109,5 +124,3 @@ input[type="submit"]:hover {
     background-color: #E55A4A; /* Darker coral on hover */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
 }
-
-
